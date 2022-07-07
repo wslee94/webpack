@@ -4,6 +4,7 @@
 
 ```javascript
 const path = require("path");
+const webpack = require("webpack");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
@@ -257,7 +258,7 @@ style-loader vs mini-css-extract-plugin
 
 ## resolve
 
-### resolve.extenstions
+### resolve.extensions
 
 - 모듈 import 시 생략하고 싶은 파일의 확장자명을 배열로 입력한다.
 
